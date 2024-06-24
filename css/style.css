@@ -1,0 +1,614 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+/* ------------------------ main start ------------------------ */
+#header{
+    height: 100%;
+    background: url(../images/Background.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+    z-index: 999;
+    text-transform: capitalize;
+}
+.header_part{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 5px;
+    cursor: pointer;
+}
+.navbar ul{
+    display: flex;
+    margin-top: 25px;
+}
+.navbar ul li{
+    list-style-type: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin: 0 25px;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400; 
+}
+.navbar ul li i{
+    color:#000000;
+    padding: 0 10px;
+}
+.contact{
+    padding: 0 20px;
+    margin: 10px 0;
+    border-radius: 12px;
+    color: white;
+    background: #8454F5;
+    border: none;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.main{
+    
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.mainright img{
+    width: 85%;
+    margin-left: 115px;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 56px;
+}
+p{
+    font-family: 'Nunito', sans-serif;
+    font-style: 18px;
+    line-height: 35px;
+    font-weight: 300;
+
+}
+.main h1{
+    padding: 110px 0 0 0;
+    font-size: 55px;
+    line-height: 85px;
+}
+.main p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 30px 0 30px 0;
+    padding-left: 20px;
+    line-height: 35px;
+    color: #29313D;
+    border-left: 5px solid #FFC556;
+	height: 67px;
+}
+.searchbox{
+    margin-top: 40px;
+    z-index: 1;
+    position: relative;
+}
+#Name{
+    width: 630px;
+    padding: 30px;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 15px;
+    border: none;
+    background-color: #8454f513;
+}
+.searchbox button{
+    width: 170px;
+    padding: 22px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 15px;
+    background: #8454F5;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    transform: translate(-105%, 13%);
+}
+/* ------------------------ main end ------------------------ */
+
+/* ------------------------ brand tags start ------------------------ */
+#brand_tags{
+	width: 100%;
+	height: 50%;
+	padding: 50px 0;
+}
+.brand_logos{
+	width: 100%;
+    margin: 0 auto;
+}
+.logo_set{
+    display: flex;
+	justify-content: space-between;
+    /* padding: 0 -55px; */
+}
+/* ------------------------ brand tags end ------------------------ */
+
+/* ------------------------ solution part start ------------------------ */
+#solutions_part{
+    width: 100%;
+	height: 100%;
+	padding: 100px 0;
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+}
+.upper p{
+    margin-top: 20px;
+    border-left: 5px solid #FFC556;
+	height: 105px;
+    padding-left: 20px;
+}
+.lower{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.box{
+    width: 32%;
+    height: 100%;
+    padding: 30px 0 40px 30px;
+    background-color: #fff;
+    border: 1px solid #8454F535;
+    border-radius: 30px;
+    
+}
+h4 a{
+    text-decoration: none;
+    color: #000;
+}
+.two{
+    background-color: #8454F5;
+    color: #fff;
+}
+span{
+    color: #fff;
+}
+.topside{
+    display: flex;
+}
+.topside h2{
+    margin: 23px 0 0 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.downside h4{
+    font-family: 'Nunito', sans-serif;
+    margin-top: 20px;
+}
+.downside p{
+    margin-top: 15px;
+    letter-spacing: 0.5px;
+}
+.lowertwo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+/* ------------------------ solution part end ------------------------ */
+
+/* ------------------------ joining part start ------------------------ */
+#joining_part{
+    width: 100%;
+	height: 100%;
+	padding: 100px 0;
+}
+.contents{
+    display: flex;
+}
+.right{
+    width: 100%;
+    padding: 175px 0 0 105px;
+}
+.right p{
+    padding: 25px 0;
+}
+.right button{
+    padding: 20px 40px;
+    margin: 10px 0;
+    border-radius: 12px;
+    color: white;
+    background: #8454F5;
+    border: none;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+}
+/* ------------------------ joining part end ------------------------ */
+
+/* ------------------------ distribution list start ------------------------ */
+#distribution_list{
+    width: 100%;
+	height: 100%;
+	padding: 100px 0;
+}
+.top_bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+    margin: 10px 0;
+    border-radius: 24px;
+    color: white;
+    background: #DBCCFC35;
+    border: none;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.top_bar li{
+    padding: 25px 80px;
+    list-style: none;
+    cursor: pointer;
+}
+.top_bar li a{
+    list-style: none;
+    text-decoration: none;
+    color: #8454F5;
+}
+.low_part{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 125px;
+}
+.right_text p{
+    margin: 20px 0;
+}
+.right_text button{
+    padding: 20px 40px;
+    margin: 15px 0 0 0;
+    border-radius: 12px;
+    color: white;
+    background: #8454F5;
+    border: none;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+}
+/* ------------------------ distribution list end ------------------------ */
+
+/* ------------------------ monthly/yearly plan start ------------------------ */
+#plans{
+    width: 100%;
+	height: 100%;
+	padding: 100px 0;
+}
+.planlist{
+    text-align: center;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.details p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    color: #29313D;
+    margin-top: 2.5px;
+}
+.switch{
+    width: 70px;
+    height: 40px;
+    background-color: #8454F5;
+    border-radius: 50px;
+    margin: 0 20px;
+}
+.whiteswitch{
+    width: 26px;
+    height: 26px;
+    margin: 7px 7px;
+    background-color: #ffffff;
+    border-radius: 50px;
+}
+.plan_section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.box_one{
+    width: 425px;
+    height: 520px;
+    padding: 50px;
+    margin-top: 150px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+}
+.box_one h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+}
+.text_list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.text_list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.left_texts p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 50px;
+    color: #29313D;
+}
+.left_texts p i{
+    margin-right: 15px;
+    color: #686868;
+}
+.right_texts p{
+    text-align: right;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 50px;
+    color: #8454F5;
+}
+.box_one button{
+    padding: 20px 40px;
+    border-radius: 12px;
+    background: #8454F520;
+    border: none;
+    color: #8454F5;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.box_two{
+    width: 425px;
+    height: 520px;
+    padding: 50px;
+    border-radius: 30px;
+    margin-top: 80px;
+    background-color: #181059;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+}
+.box_two h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    color: #fff;
+}
+.box_two p{
+    color: #fff;
+}
+.box_two button{
+    padding: 20px 40px;
+    border-radius: 12px;
+    background: #8454F5;
+    border: none;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+/* ------------------------ monthly/yearly plan end ------------------------ */
+
+/* ------------------------ demo part start ------------------------ */
+#demo_part{
+    width: 100%;
+	height: 100%;
+	padding: 100px 0;
+}
+.main_six{
+    display: flex;
+    justify-content: space-between;
+}
+.informations{
+    width: 58%;
+    transform: translateY(12%);
+    display: flex;
+    justify-content: space-between;
+}
+.media_demo{
+    display: flex;
+}
+.media_demo p{
+    transform: translateY(40%);
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 50px;
+    color: #29313D;
+}
+.deal_service{
+    border-left: 1px solid #c9c9c9;
+    height: 155px;
+    padding-left: 75px;
+    font-weight: 600px;
+}
+/* ------------------------ demo part end ------------------------ */
+
+/* ------------------------ build team start ------------------------ */
+#build_team{
+    width: 100%;
+	height: 100%;
+	padding: 100px 0;
+}
+.main_seven{
+    
+}
+.downpart{
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.icons i{
+    color: #8454F5;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #8454F5;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.fulldetails{
+    margin-top: 30px;
+}
+.fulldetails h3{
+    margin: 35px 0 20px 0;
+    padding-right: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+}
+.fulldetails p{
+    font-size: 20px;
+    line-height: 40px;
+}
+.icons_two i{
+    margin-top: 45px;
+    background-color: #F3EEFE;
+    padding: 23px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.users img{
+    width: 100%;
+}
+/* ------------------------ build team end ------------------------ */
+
+/* ------------------------ seo analytics end ------------------------ */
+#seo_analytics{
+    width: 100%;
+    height: 100%;
+}
+.texts{
+    padding: 100px 0;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+}
+.texts p{
+    padding: 20px 0;
+    color: #000000;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 40px;
+}
+.emailbox{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 0 0;
+    z-index: 1;
+}
+#email{
+    width: 40%;
+    padding: 30px;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 15px;
+    border: none;
+    background-color: #8454f513;
+}
+.emailbox button{
+    width: 180px;
+    padding: 20px;
+    margin-left: 25px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 15px;
+    background: #8454F5;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+/* ------------------------ seo analytics end ------------------------ */
+
+/* ------------------------ footer start ------------------------ */
+#footer{
+    width: 100%;
+    height: 100%;
+    padding: 100px 0 30px 0;
+    font-family: 'Nunito', sans-serif;
+    text-transform: capitalize;
+    color: #29313D;
+}
+.footer_top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_topleft p{
+    margin: 30px 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 35px;
+}
+.footer_topright{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+.features{
+    margin-right: 180px;
+}
+.products{
+    margin-right: 180px;
+}
+.footer_down{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.downright{
+    width: 22%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+}
+.footer_topright h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0 0 25px 0;
+}
+.footer_topright li{
+    padding: 13px 0;
+}
+.footer_topright li a,
+.downright li a{
+    text-decoration: none;
+    color: #29313D;
+}
+/* ------------------------ footer end ------------------------ */
